@@ -11,7 +11,8 @@ const ArrayRendering = () => {
   let edit = [...arr]
 
 
-  edit[index] = "Dhanushhh"
+  edit[index] = "vijay"
+  
 
 
   setArr(edit)
