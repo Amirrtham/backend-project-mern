@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f2f2f2;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.counter{
+    text-align:center;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    background:blue;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:darkblue;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
