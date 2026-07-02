@@ -1,15 +1,17 @@
-import { Routes, Route } from "react-router-dom";
-import StudentForm from "./StudentForm";
-import EmployeeForm from "./EmployeeForm";
-import ProductForm from "./ProductForm";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<StudentForm />} />
-      <Route path="/employee" element={<EmployeeForm />} />
-      <Route path="/product" element={<ProductForm />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
